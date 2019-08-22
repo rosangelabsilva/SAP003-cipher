@@ -1,0 +1,31 @@
+body{
+    background: #E9967A;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.message{
+    font-style: italic;
+}
+
+.chave{
+    font-style: italic;
+}
+
+input.chave{
+    height: 60px;
+    width: 250px;
+  }
+
+input.message{
+    height: 60px;
+    width: 250px;
+  }
+  
