@@ -7,7 +7,22 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Segurança das senhas</h1>
+    </div>
+    <main>
+    <form>
+      <input type= "text" placeholder= "Digite a mensagem"
+      id= "mensagem"/>
+      <input type= "text" placeholder="Digite a chave"
+      id= "chave"/>
+      <p>
+      <input type="submit" id="btn-cifrar" value="Cifrar" onclick= "clickEncode()"/>
+      <input type="submit" id="btn-decifrar" value="Decifrar" onclick= "clickDecode()"/>
+      </p>
+    </form>
+    <div id="message">
+    </div>
+    <div id="message2">
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
