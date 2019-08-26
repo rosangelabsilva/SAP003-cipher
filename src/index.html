@@ -7,9 +7,9 @@
   </head>
   <body>
     <div id="root">
-      <h1>Segurança das senhas <img src="key.png"> </h1>
+      <h1>Segurança das senhas</h1>
       </div>
-    <h2>Deixe seu celular mais seguro, cifre as senhas e dificute o acesso!</h2>
+    <h2>Manter a integridade das informações é extremamente importante, cifre as senhas do seu celular para manter a confidencialidade dos seus dados.</h2>
     <main>
     <form>
       <input class="message" type= "text" placeholder= "Digite a senha"
@@ -17,13 +17,13 @@
       <input class="chave" type= "text" placeholder="Digite a chave"
       id= "chave"/>
       <p>
-      <input type="submit" id="btn-cifrar" value="Cifrar" onclick= "clickEncode()"/>
-      <input type="submit" id="btn-decifrar" value="Decifrar" onclick= "clickDecode()"/>
+      <input class="btn" type="submit" value="Cifrar" id= "clickEncode"/>
+      <input class="btn" type="submit" value="Decifrar" id= "clickDecode"/>
       </p>
     </form>
-    <div id="message">
+    <div class="message" id="message">
     </div>
-    <div id="message2">
+    <div class="message" id="message2">
     </div>
     </main>
     <script src="cipher.js"></script>

@@ -1,31 +1,50 @@
-body{
-    background: #E9967A;
+body {
+    background-color: whitesmoke;
+    background-size: 120% 100%;
+    background-attachment: fixed;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-h1{
+h1 {
     text-transform: uppercase;
     font-weight: bold;
-    font-style: normal;
+    font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
-    
+     }
+ h2 {
+     font-size: 20px;
+     font-style: italic;
+     font-weight: normal;
+ }
+.message {
+    font-style: italic;
+}
+.chave {
+    font-style: italic;
+}
+input.chave {
+    height: 80px;
+    width: 100px;
+    font-size: 15px;
+  }
+input.message {
+    height: 80px;
+    width: 350px;
+    font-size: 25px;
+  }
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    font-size: 25px;
+    font-weight: bolder;
 }
 .message{
-    font-style: italic;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
-
-.chave{
-    font-style: italic;
-}
-
-input.chave{
-    height: 60px;
-    width: 250px;
-  }
-
-input.message{
-    height: 60px;
-    width: 250px;
-  }
-  

@@ -3,20 +3,17 @@ window.cipher = {
   encode: encode,
   decode: decode
 };
-
-function encode(mensagem, chave) {
+function encode(chave, mensagem) {
   let resultado="";
   for (let i=0; i<mensagem.length; i++) {
     let encodeMessage = ((mensagem.charCodeAt(i) - 65 + chave) % 26) + 65;
     resultado += String.fromCharCode(encodeMessage);
   }
   return resultado;
-
 //  return mensagem + " " + chave
   // encoda a msg e usa o deslocamento
 }
-
-function decode(mensagem, chave) {
+function decode(chave, mensagem) {
 //desencoda a msg com o deslocamento
   let decifrar="";
   for (let i=0; i<mensagem.length; i++) {
@@ -24,6 +21,4 @@ function decode(mensagem, chave) {
     decifrar += String.fromCharCode(decodeMessage);
   }
   return decifrar;
-
 }
-
