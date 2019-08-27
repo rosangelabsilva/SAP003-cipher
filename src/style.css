@@ -1,38 +1,51 @@
 body {
-    background: url(/home/laboratoria/Desktop/plano.jpg);
-    background-size: 120% 100%;
+    background-image: url(./celular-2.png);
+    background-position: center;
+    background-size: 900px;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 h1 {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    top: 125px;
      }
  h2 {
-     font-size: 20px;
+     font-size: 18px;
      font-style: italic;
      font-weight: normal;
+     text-align: center;
+     position: relative;
+     top: 120px;
  }
-.message {
+.messagem {
+    text-align: center;
     font-style: italic;
-}
-.chave {
-    font-style: italic;
-}
-input.chave {
-    height: 80px;
-    width: 100px;
-    font-size: 15px;
-  }
-input.message {
+    position: relative;
+    left: 40%;
+    top: 145px;
     height: 80px;
     width: 350px;
     font-size: 25px;
-  }
+    text-align: center;
+}
+.chave {
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    left: 26.5%;
+    top: 240px;
+    height: 80px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+}
 .btn {
     font-family: Arial, Helvetica, sans-serif;
     height: 120px;
@@ -42,9 +55,17 @@ input.message {
     border-color: black;
     font-size: 25px;
     font-weight: bolder;
+    position: relative;
+    left: 43%;
+    top: 235px;
+    text-align: center;    
 }
 .message{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    color: brown;
+    position: relative;
+    left:45%;
+    top: 245px;
 }
