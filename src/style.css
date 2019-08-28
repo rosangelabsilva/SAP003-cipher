@@ -1,3 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    }
+    
 body {
     background-image: url(./celular-2.png);
     background-position: center;
@@ -14,7 +22,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     position: relative;
-    top: 125px;
+    top: 135px;
      }
  h2 {
      font-size: 18px;
@@ -22,29 +30,35 @@ h1 {
      font-weight: normal;
      text-align: center;
      position: relative;
-     top: 120px;
+     top: 135px;
  }
 .messagem {
     text-align: center;
     font-style: italic;
     position: relative;
     left: 40%;
-    top: 145px;
+    top: 150px;
     height: 80px;
     width: 350px;
     font-size: 25px;
     text-align: center;
+    border-width: 6px;
+    border-style: outset;
+    border-color: rgb(66, 63, 63);
 }
 .chave {
     text-align: center;
     font-style: italic;
     position: relative;
     left: 26.5%;
-    top: 240px;
+    top: 250px;
     height: 80px;
     width: 100px;
     font-size: 15px;
     text-align: center;
+    border-width: 6px;
+    border-style: outset;
+    border-color: rgb(66, 63, 63);
 }
 .btn {
     font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +71,7 @@ h1 {
     font-weight: bolder;
     position: relative;
     left: 43%;
-    top: 235px;
+    top: 275px;
     text-align: center;    
 }
 .message{
@@ -66,6 +80,6 @@ h1 {
     font-style: normal;
     color: brown;
     position: relative;
-    left:45%;
-    top: 245px;
+    left:42%;
+    top: 300px;
 }
