@@ -1,16 +1,13 @@
 *{
     padding:0;
     margin:0;
-    vertical-align:baseline;
-    list-style:none;
     border:0;
-    }
-    
+}
 body {
     background-image: url(./celular-2.png);
     background-position: center;
     background-size: 900px;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     background-repeat: no-repeat;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
@@ -22,22 +19,22 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     position: relative;
-    top: 135px;
-     }
+    top: 155px;
+}
  h2 {
      font-size: 18px;
      font-style: italic;
      font-weight: normal;
      text-align: center;
      position: relative;
-     top: 135px;
+     top: 155px;
  }
 .messagem {
     text-align: center;
     font-style: italic;
     position: relative;
     left: 40%;
-    top: 150px;
+    top: 175px;
     height: 80px;
     width: 350px;
     font-size: 25px;
@@ -51,7 +48,7 @@ h1 {
     font-style: italic;
     position: relative;
     left: 26.5%;
-    top: 250px;
+    top: 275px;
     height: 80px;
     width: 100px;
     font-size: 15px;
@@ -67,19 +64,31 @@ h1 {
     color: white;
     background-color: black;
     border-color: black;
+    border-radius: 50px;
     font-size: 25px;
     font-weight: bolder;
     position: relative;
     left: 43%;
-    top: 275px;
+    top: 285px;
     text-align: center;    
 }
 .message{
-    font-size: 40px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    color: brown;
+    color: rgb(44, 19, 19);
     position: relative;
-    left:42%;
-    top: 300px;
+    left:45%;
+    top: 280px;
+    height: 80px;
+    width: 100px;
+}
+aside{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #696969;
+    position: absolute;
+    top: 690px;
+    height: 80px;
+    width: 650px;
 }
