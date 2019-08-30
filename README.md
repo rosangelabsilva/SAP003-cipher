@@ -24,7 +24,7 @@ O projeto busca integrar os usuários de celular na utilização de segurança d
 
 ## 3. Elaboração
 
-Para elaborar o projeto foi utilizado o HTML para inserção do conteúdo que o usuário irá visualizar. Também foi utilizado dois arquivos JavaScript, um que faz todas as interações com o HTML, como os eventos de cliques dos botões, e outro para colocar as funções de cifra e decifrar, funcionando tanto para letras maiúsculas tanto como para as minúsculas, além de aparecer os números e os caracteres (sem deslocamento). O arquivo em CSS foi utilizado para definir como a aplicação ficará visível para os usuários.   
+Para elaborar o projeto foi utilizado o HTML para inserção do conteúdo que o usuário irá visualizar. Também foi utilizado dois arquivos JavaScript, um que faz todas as interações com o HTML, como os eventos de cliques dos botões, e outro para colocar as funções de cifra e decifrar, funcionando tanto para letras maiúsculas tanto como para as minúsculas, além de aparecer os números e os caracteres (sem deslocamento). O arquivo em CSS foi utilizado para definir como a aplicação ficará visível para os usuários.
 
 ## 4. Design
 
@@ -34,3 +34,4 @@ Foi pensando em simular a tela de um celular, indicando a utilização da aplica
 
 ## 5. Considerações Finais
 
+O projeto cumpriu os requisitos obrigatórios, portanto, os testes foram realizados e os resultados foram satisfatórios. 
