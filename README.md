@@ -4,10 +4,9 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. HTML](#3-html)
-* [4. Funções](#4-funções)
-* [5. Design (CSS)](#5-design)
-* [6. Considerações Finais](#6-considerações-finais)
+* [3. Elaboração](#3-elaboração)
+* [4. Design](#4-design)
+* [5. Considerações Finais](#5-considerações-finais)
 
 ***
 
@@ -23,16 +22,15 @@ A partir da cifra de César criei um produto que codifique as senhas dos usuári
 
 O projeto busca integrar os usuários de celular na utilização de segurança da informação, colocando os em menos risco e salvaguardar seus dados.
 
-## 3. HTML
+## 3. Elaboração
 
-No arquivo "index.html" criei um "h1" para inserir o título do projeto, no "h2" coloquei o subtítulo, que contém a explicação sobre o projeto. Na parte principal coloquei os inputs para o usuário inserir a senha e a chave, os botões para cifrar e decifrar, o local onde aparecerá a mensagem cifrada e a mensagem decifrada. Introduzir um "aside" para colocar as informações de orientação para o usuário.
+Para elaborar o projeto foi utilizado o HTML para inserção do conteúdo que o usuário irá visualizar. Também foi utilizado dois arquivos JavaScript, um que faz todas as interações com o HTML, como os eventos de cliques dos botões, e outro para colocar as funções de cifra e decifrar, funcionando tanto para letras maiúsculas tanto como para as minúsculas, além de aparecer os números e os caracteres (sem deslocamento). O arquivo em CSS foi utilizado para definir como a aplicação ficará visível para os usuários.   
 
-## 4. Funções
+## 4. Design
 
-As funções com interações com HTML foram colocadas no arquivo "index.js". 
+Foi pensando em simular a tela de um celular, indicando a utilização da aplicação:
 
-## 5. Design (CSS)
+![Página](src/pagina.png)
 
-
-## 6. Considerações Finais
+## 5. Considerações Finais
 
